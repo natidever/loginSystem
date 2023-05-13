@@ -1,0 +1,30 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.login{
+    -fx-font-size:25;
+   -fx-color:silver;
+}
+.signup{
+font-weight: bold;
+ -fx-font-size: 12px;
+  -fx-text-fill:#4B53F2;
+}
+.font{
+       
+  -fx-font-family: 'Roboto', sans-serif;
+  -fx-font-size: 16px;
+}
+.button{
+/*       -fx-border: 2px solid red;
+     -fx-border-radius:14px;*/
+     
+/*     
+     -fx-border-radius: 50px;
+    -fx-border-width: 5px;
+    -fx-border-color: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);*/ 
+     -fx-color:white;
+      -fx-background-color:#4B53F2;
+      -fx-text-fill:white;
+  
+}

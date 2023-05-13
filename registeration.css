@@ -1,0 +1,25 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.font{
+      -fx-font-family: 'Roboto', sans-serif;
+      -fx-font-size:16;
+  
+}
+.signupheading{
+         -fx-font-size:22;
+    
+}
+.backgorund{
+    -fx-background-color:#a0d2eb;
+}
+.textfield{
+      -fx-background-color: #e5eaf5;
+}
+.button{
+    -fx-background-color:#d0bdf4;
+}
+.radius{
+ -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-border-width: 1px;
+    -fx-border-color: #e5eaf5;
+}

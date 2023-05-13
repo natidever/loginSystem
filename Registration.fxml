@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" styleClass="backgorund" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegistrationController">
+   <children>
+      <Pane layoutX="126.0" layoutY="32.0" prefHeight="403.0" prefWidth="291.0" styleClass="radius">
+         <children>
+            <Label layoutX="66.0" styleClass="signupheading" text="Sign Up" />
+            <Label layoutX="22.0" layoutY="53.0" styleClass="font" text="User Name">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="rusername" layoutX="14.0" layoutY="85.0" prefHeight="25.0" prefWidth="252.0" styleClass="textfield">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </TextField>
+            <Label layoutX="2.0" layoutY="126.0" styleClass="font" text="Password">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="rpassword" layoutX="14.0" layoutY="165.0" prefHeight="25.0" prefWidth="252.0" styleClass="textfield">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="remail" layoutX="16.0" layoutY="236.0" prefHeight="25.0" prefWidth="252.0" styleClass="textfield">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </TextField>
+            <Label layoutX="2.0" layoutY="201.0" styleClass="font" text="Email">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Button fx:id="rsignup" layoutX="26.0" layoutY="298.0" mnemonicParsing="false" onAction="#sendto" prefHeight="25.0" prefWidth="252.0" styleClass="font" text="Sign Up">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Button>
+            <Label fx:id="emptyerror" layoutX="14.0" layoutY="273.0" prefHeight="17.0" prefWidth="252.0" textFill="#ff0d0d" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
